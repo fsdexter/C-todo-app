@@ -1,0 +1,59 @@
+.heading-section{
+    padding: 150px;
+    background: linear-gradient(to right,rgb(235, 9, 9), rgb(200, 41, 248));
+    text-align: center;
+    h1.title{
+        color: white;
+        text-shadow: 5px 5px 5px rgba(black, 0.5);
+    }
+}
+.container{
+    width: 60%;
+}
+.add-todo-box{
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: -80px;
+    background-color: white;
+    box-shadow:0 5px 15px rgba(black, 0.5);
+}
+.add{
+    background: linear-gradient(to left,rgb(235, 9, 9), rgb(200, 41, 248));
+    border-radius: 10px;
+    color: white;
+    opacity: 0.3;
+    &:hover{
+        opacity: 1;
+        box-shadow:0 5px 15px 5px rgba(black, 0.2);
+    }
+    i.material-icons{
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+}
+.todo-item{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    .check-box{
+        border-radius: 50%;
+        height: 30PX;
+        width: 30px;
+        border: 2px solid #eee;
+        margin-right: 10px;
+        i.material-icons{
+            border-radius: 50%;
+            height: 30PX;
+            width: 30px;
+            font-size:20px;
+            padding-top: 5px;
+            margin: auto;
+            opacity: 0;
+            text-align: center;
+            &:hover{
+                opacity: 1;
+                background-color: #eee;
+            }
+        }
+    }
+}
